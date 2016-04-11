@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:backgroundTintMode="multiply">
+    <!-- A CardView that contains a TextView -->
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:background="#fff"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:elevation="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        card_view:cardCornerRadius="2dp"
+        android:backgroundTint="#40ffffff"
+        android:backgroundTintMode="multiply"
+        android:clickable="true">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+
+            >
+        <TextView
+            android:id="@+id/textR"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:textColor="#fff"
+            android:background="#1e90f4"
+            android:layout_marginBottom="5dp"
+            android:gravity="top"
+            />
+        <TextView
+            android:id="@+id/textR2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:textColor="#fff"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="bottom"
+            />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

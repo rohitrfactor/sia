@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/green"
+    tools:context="com.example.garorasu.fragmenttest.login">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="14dp"
+        android:textColor="#ffffff"
+        android:typeface="monospace"
+        android:layout_marginTop="61dp"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/editText"
+        android:layout_alignStart="@+id/editText" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:textSize="24sp"
+        android:hint="Username"
+        android:textColorHint="#ffffff"
+        android:layout_below="@+id/textView3"
+        android:textColor="#ffffff"
+        android:textColorHighlight="#ffffff"
+        android:textColorLink="#ffffff"
+        android:singleLine="true"
+        android:selectAllOnFocus="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textSize="14dp"
+        android:textColor="#ffffff"
+        android:typeface="monospace"
+        android:layout_below="@+id/editText"
+        android:layout_alignLeft="@+id/editText"
+        android:layout_alignStart="@+id/editText"
+        android:id="@+id/textView4" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="40dp"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:textSize="24sp"
+        android:hint="Password"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        android:textColorHighlight="#ffffff"
+        android:textColorLink="#ffffff"
+        android:singleLine="true"
+        android:selectAllOnFocus="true"
+        android:id="@+id/editText2"
+        android:layout_below="@+id/textView4"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:onClick="tv"
+        android:id="@+id/button"
+        android:background="#61a431"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/editText2"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
